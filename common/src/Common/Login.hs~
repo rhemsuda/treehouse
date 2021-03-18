@@ -1,0 +1,7 @@
+module Login where
+
+type Username = Text
+type Password = Text
+
+data Login = Login Username Password
+
